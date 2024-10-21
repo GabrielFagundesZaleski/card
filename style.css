@@ -53,6 +53,8 @@ footer{
     position: absolute;
     text-align: left;
     font-size: 1.2vw;
+    backface-visibility: hidden;
+
 }
 
 .conteudo-cartao p{
@@ -74,4 +76,10 @@ footer{
 
 .cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
+}
+.pergunta-cartao, .resposta-cartao{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
