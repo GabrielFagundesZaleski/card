@@ -6,10 +6,12 @@
     --preto:#000000;
     --branco:#ffffff;
 }
+
 body{
     background-color: var(--fundo);
     margin: 0;
 }
+
 footer{
     position: fixed;
     bottom: 0;
@@ -60,7 +62,13 @@ footer{
     font-weight: 500;
 }
 
+
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
+}
+
+
+.cartao:hover .conteudo-cartao{
+    transform: rotateY(180deg);
 }
