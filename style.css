@@ -18,3 +18,10 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+#contaimer{
+    padding: 4rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
